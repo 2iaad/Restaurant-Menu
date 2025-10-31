@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+      <title>Kool</title>
+
+      <style>
+        header {
+          text-align: center;
+          padding: 10px 0;
+        }
+
+        body {
+            text-align: center;
+        }
+        .menu-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .menu-container article img {
+            width: 200px;
+            border-radius: 10px; /* optional: gives smooth corners */
+        }
+
+      </style>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <figure>
+              <img id="header-img" src="/HtmlPractice/srcs/world-food-day-2020.png.webp" alt="header-image">
+              <h1> <span style="color: rgb(73, 19, 33); font-size: xx-large; text-decoration: underline;"> Kool</span> </h1>
+              <nav>
+                <ul>
+                    <span style="text-align: center;">
+                        <a href="#menu">Menu</a> <a href="#order-form">Order Form</a>
+                    </span>
+                </ul>
+              </nav>
+            </figure>
+            <hr width="60%"/>
+
+        </header>
+
+        <main>
+
+            <section id="menu">
+               <h2>Menu</h2>
+
+                  <div class="menu-container">
+                    <article>
+                            <figure>        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2024/06/Noodle-salad-with-lemongrass-pork-patties-51de796.jpg" alt="Noodle salad with lemongrass pork patties"></figure>
+                            <h3>    <b>(Noodle salad with lemongrass)</b> </h3>
+                            <p>Cook these meat-free burgers on the barbecue or griddle pan. They’re easy to make and require very little prep work. A kick of chilli heightens the flavours <br/><br/> <i>11,70 $</i></p>
+                    </article>
+                    <article>
+                            <figure>        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/06/CajunPrawnCornSalad-1af3d05.jpg" alt="Noodle salad with lemongrass pork patties"></figure>
+                            <h3>    <b>(Cajun prawn & charred corn salad)</b> </h3>
+                            <p>Take inspiration from Tex-Mex flavours with this salad, studded with king prawns, sweetcorn and jalapeño peppers. It’s ideal for a barbecue side, or a light dinner <br/><br/> <i>19,37 $</i></p>
+                    </article>
+                    <article>
+                            <figure>        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2022/06/Butternut-squash-burgers-8c8b3c3.jpg" alt="Noodle salad with lemongrass pork patties"></figure>
+                            <h3>    <b>(Butternut squash burgers)</b> </h3>
+                            <p>Enjoy these fragrant pork patties in the summer. They’re ideal if you only have a small barbecue as they don’t take up much room on the grill and cook quickly <br/><br/> <i>13,37 $</i></p>
+                    </article>
+                  </div>
+            </section>
+
+            <br/> <hr width="60%"/> <br/>
+
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+
+                <div class="order-form-container">
+                    <form>
+                            <fieldset style="text-align: left; display: inline-block;">
+                                    <legend><strong>Choose your meals</strong></legend>
+
+                                    <label for="noodle-salad">Noodle salad with lemongrass:</label>
+                                    <input id="noodle-salad" type="number" min="0" value="0"><br/><br/>
+
+                                    <label for="cajun-salad">Cajun prawn & charred corn salad:</label>
+                                    <input id="cajun-salad" type="number" min="0" value="0"><br/><br/>
+
+                                    <label for="burger">Butternut squash burgers:</label>
+                                    <input id="burger" type="number" min="0" value="0">
+                            </fieldset>
+
+                            <br/><br/>
+
+                            <!-- Add-ons -->
+                            <fieldset style="text-align: left; display: inline-block;">
+                                    <legend><strong>Add-ons</strong></legend>
+                                    <label for="frites">Frites</label>
+                                    <input id="frites" type="checkbox"><br/>
+
+                                    <label for="drink">Drink</label>
+                                    <input id="drink" type="checkbox"><br/>
+
+                                    <label for="sauces">Sauces</label>
+                                    <input id="sauces" type="checkbox"><br/>
+
+                                    <!-- naw3 d sauce -->
+                                    <label><input type="radio" name="sauce-type" id="hot"> Hot sauce</label>
+                                    <label><input type="radio" name="sauce-type" id="salty"> Salty sauce</label>
+                            </fieldset>
+
+
+                            <br/><br/>
+                            <textarea rows="10" cols="60" placeholder="Type your special request"></textarea>
+
+
+                            
+                            <br/><br/>
+                            <input type="submit" value="Go To Checkout">
+                    </form>
+                </div>
+            </section>
+
+
+        </main>
+        
+        <footer>
+            <br/><br/> <p> <i> <span style="color: rgb(255, 0, 0);">Made with love by zderfouf!</span> </i></p>
+        </footer>
+        
+    </body>
+
+</html>
