@@ -8,7 +8,7 @@ This project focuses on **responsive design**, **typography**, and **layout styl
 ## 📸 Preview
 
 ![Restaurant Menu Preview](./Screenshot%202025-11-12%20at%2015.15.14.png)
-
+ 
 ---
 
 ## 🌟 Features
